@@ -17,6 +17,7 @@ using Serilog;
 using Serilog.Extensions.Logging;
 using System;
 using System.IO;
+using System.Reflection;
 using System.Threading.Tasks;
 
 namespace MobSwitcher.Cli
