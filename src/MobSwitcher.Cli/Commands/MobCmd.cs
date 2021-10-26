@@ -28,6 +28,6 @@ namespace MobSwitcher.Cli.Commands
             return Task.FromResult(0);
         }
 
-        private static string GetVersion() => typeof(MobCmd).Assembly.GetCustomAttribute<AssemblyInformationalVersionAttribute>().InformationalVersion;
+        private static string GetVersion() => typeof(MobCmd).Assembly.GetName().Version.ToString();
     }
 }
